@@ -16,5 +16,8 @@
 	],
 	"[yaml]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
-	}
+    },
+    "[json]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    }
 }

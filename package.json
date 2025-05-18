@@ -10,7 +10,12 @@
         "typescript": "^5"
     },
     "dependencies": {
-        "discord.js": "^14.19.3"
+        "discord.js": "^14.19.3",
+        "log4js": "^6.9.1"
     },
-    "packageManager": "bun@1.2.2+"
+    "packageManager": "bun@1.2.2+",
+    "scripts": {
+        "start": "bun src/index.ts",
+        "check": "biome check --write"
+    }
 }
